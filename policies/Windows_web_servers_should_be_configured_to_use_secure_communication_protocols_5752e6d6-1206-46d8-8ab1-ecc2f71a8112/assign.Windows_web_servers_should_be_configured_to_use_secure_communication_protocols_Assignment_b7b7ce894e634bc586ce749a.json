@@ -1,0 +1,30 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Windows web servers should be configured to use secure communication protocols Assignment",
+  "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/5752e6d6-1206-46d8-8ab1-ecc2f71a8112",
+  "scope": "/subscriptions/e02fb416-451d-4c44-bb9c-5a930eec749d",
+  "notScopes": [],
+  "parameters": {
+   "MinimumTLSVersion": {
+    "value": "1.1"
+   }
+  },
+  "description": "",
+  "metadata": {
+   "assignedBy": "Ye Zhu",
+   "parameterScopes": {},
+   "createdBy": "dbbf7b3c-7f12-4115-bd54-6cac9b4d3590",
+   "createdOn": "2022-01-05T06:42:17.5251678Z",
+   "updatedBy": "dbbf7b3c-7f12-4115-bd54-6cac9b4d3590",
+   "updatedOn": "2022-01-05T07:00:42.6654074Z"
+  },
+  "enforcementMode": "Default"
+ },
+ "id": "/subscriptions/e02fb416-451d-4c44-bb9c-5a930eec749d/providers/Microsoft.Authorization/policyAssignments/b7b7ce894e634bc586ce749a",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "b7b7ce894e634bc586ce749a"
+}
